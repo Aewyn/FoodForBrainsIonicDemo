@@ -1,0 +1,7 @@
+{
+  "name": "food-for-brains",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
