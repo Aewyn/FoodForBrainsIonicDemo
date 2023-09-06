@@ -29,6 +29,11 @@ ionic capacitor sync android
 .\gradlew assembleRelease
 ```
 
+### Run the application on an external device
+```
+ionic capacitor run android -l --external
+```
+
 ### Easy info for the keystore - might differ to your own created keystore
 - **name**: demo
 - **pw**: ffbdemo
