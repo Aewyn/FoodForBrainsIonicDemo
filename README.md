@@ -16,11 +16,17 @@ Demo to be used during the Food For Brains session regaring the Ionic Framework.
 **Ionic** v7.1.1
 
 ## Prepare build
+### Install node packages
 ```
-ionic capacitor sync
+npm install
 ```
+### Sync any changes made - build app for platform
 ```
-cd android && .\gradlew assembleRelease
+ionic capacitor sync android
+```
+### Build the application, assuming you're in the android folder
+```
+.\gradlew assembleRelease
 ```
 
 ### Easy info for the keystore - might differ to your own created keystore
